@@ -30,4 +30,5 @@ int main()
     cin >> B;
     cin >> C;
     zhenmove(n,A,B,C);
+    return 0;
 }
