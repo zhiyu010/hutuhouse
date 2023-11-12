@@ -19,20 +19,13 @@ int jisuan(int n)
 }
 int main()
 {
-    int n,a;
-    int b;
+    int n,a,b;
     cin >> b;
-    int c=b;
-    int C[c];
-    for(; b!=0 ; --b)
-    {
-        cin >> n;
-        a = jisuan (n);
-        C[b] = a;
-    }
-    for(; c!=0 ; --c)
-    {
-        cout << C[c] << endl;
-    }
-    return 0;
+    while(b>0){
+    cin >> n;
+    a = jisuan (n);
+    cout << a << endl;
+    b--;
+}
+ 
 }
